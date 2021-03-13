@@ -200,6 +200,7 @@ def list_users():
     else:
         users = User.query.filter(User.username.like(f"%{search}%")).all()
 
+    # return (jsonify(users=users), 200)
     return render_template('users/index.html', users=users)
 
 
