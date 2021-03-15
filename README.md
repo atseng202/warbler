@@ -2,6 +2,8 @@
 
 [Warbler](http://alan-tseng-warbler.herokuapp.com "Warbler")  is a full stack Twitter clone built with a Flask backend, PostgreSQL database and SQLAlchemy ORM. The frontend uses Jinja for HTML templating, jQuery and Axios for certain features.
 
+_Note: Please wait a few seconds for app to load. Heroku's dyno is often sleeping if no requests have been made in a while._
+
 # App Highlights
 * New users can log in / sign up
 * Logged in users can edit their user profile
